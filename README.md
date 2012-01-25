@@ -23,10 +23,12 @@ Usage
 
 1. Alias `cat` to `c`
 
+```
     $ python al.py c cat
+```
 
 2. Multi-word alias
 
+```
     $ python al.py gs "git status --short"
-
-
+```
