@@ -18,6 +18,12 @@ That's likely a ways away, but v1 is sufficient for my personal use right now.
 
 Hopefully you find it useful too!
 
+Installation
+------------
+
+Just set the `PATH` variable in `al.py` to where your rc file is and you should 
+be good to go.
+
 Usage
 -----
 
@@ -31,4 +37,9 @@ Usage
 
 ```
     $ python al.py gs "git status --short"
+```
+2. Meta-al
+
+```
+    $ python al.py al /path/to/all.py
 ```
