@@ -38,7 +38,8 @@ Usage
 ```
     $ python al.py gs "git status --short"
 ```
-2. Meta-al
+
+3. Call me al
 
 ```
     $ python al.py al /path/to/all.py
