@@ -39,7 +39,7 @@ def main():
   with open(PATH, 'r') as file_obj:
    inp = file_obj.read()
 
-  user_inp = raw_input('setting alias: %s\n OK? [Yy/Nn]' % alias)
+  user_inp = raw_input('setting alias: %s\n OK? [Yy]' % alias)
   if not user_inp.lower() == 'y':
     sys.exit()
 
